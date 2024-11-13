@@ -212,5 +212,106 @@ namespace EDDemo.Estructuras_No_Lineales
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(txtDatoEliminar.Text, out int valor))
+            {
+                
+                miArbol.EliminarNodoConPredecesor(valor);
+                miArbol.strArbol = "";
+                miArbol.MuestraArbolAcostado(1, miArbol.RegresaRaiz());
+                txtArbol.Text = miArbol.strArbol;
+
+            }
+            else
+            {
+                MessageBox.Show("Por favor, ingresa un valor numérico válido en el campo 'txtPredecesor'.");
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            miRaiz = miArbol.RegresaRaiz();
+            int altura = miArbol.ObtenerAltura();
+            texAltura.Text = altura.ToString();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            miRaiz = miArbol.RegresaRaiz();
+            int cantidadNodos = miArbol.ContarNodos();
+            txtCantidadNodos.Text = cantidadNodos.ToString();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            miRaiz = miArbol.RegresaRaiz();
+            int cantidadHojas = miArbol.ContarHojas();
+            txtCantidadHojas.Text = cantidadHojas.ToString();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            miRaiz = miArbol.RegresaRaiz();
+            bool esCompleto = miArbol.EsBinarioCompleto();
+            boton9.Text = esCompleto ? "Sí" : "No";
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            miRaiz = miArbol.RegresaRaiz();
+            bool esLleno = miArbol.EsBinarioLleno();
+            boton10.Text = esLleno ? "Sí" : "No";
+        }
+
+        private void txtCantidadNodos_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+                miArbol.Podar();
+                txtArbol.Text = "El árbol ha sido podado.";
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(btsucesor.Text, out int valor))
+            {
+                
+                miArbol.EliminarNodoConSucesor(valor);
+                miArbol.strArbol = "";
+                miArbol.MuestraArbolAcostado(1, miArbol.RegresaRaiz());
+                txtArbol.Text = miArbol.strArbol;
+            }
+            else
+            {
+                MessageBox.Show("Por favor, ingresa un valor numérico válido en el campo 'txtSucesor'.");
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string recorridoAmplitud = miArbol.RecorridoAmplitud();
+            btrecorrer.Text = recorridoAmplitud;
+        }
+
+        private void sucesor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btrecorrer_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtArbol_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
