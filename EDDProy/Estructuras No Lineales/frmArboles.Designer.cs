@@ -269,7 +269,7 @@ namespace EDDemo.Estructuras_No_Lineales
             // pictureBox1
             // 
             this.pictureBox1.Image = global::EDDemo.Properties.Resources._500_333;
-            this.pictureBox1.Location = new System.Drawing.Point(971, 14);
+            this.pictureBox1.Location = new System.Drawing.Point(976, 13);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(188, 180);
