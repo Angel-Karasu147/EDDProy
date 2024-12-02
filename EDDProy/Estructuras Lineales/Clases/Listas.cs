@@ -4,16 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EDDemo
+namespace EDDemo.Estructuras_Lineales.Clases
 {
-    class Listas
+    internal class Listas
     {
-        public void Insertar()
-        {
-            Nodo Nuevo = new Nodo();
-            Nuevo.sig = null;
-
-
-        }
     }
 }

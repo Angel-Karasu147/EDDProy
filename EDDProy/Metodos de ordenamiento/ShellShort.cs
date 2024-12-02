@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EDDemo.Recursividad
+namespace EDDemo.Metodos_de_busqueda
 {
-    internal class Torre_de_Hanoi
-
+    internal class ShellShort
     {
     }
 }

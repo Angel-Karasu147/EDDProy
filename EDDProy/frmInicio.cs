@@ -4,10 +4,18 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using EDDemo.Estructuras_Lineales;
+using EDDemo.Estructuras_Lineales.Clases;
 using EDDemo.Estructuras_No_Lineales;
+using EDDemo.Metodo_de_busqueda;
+using EDDemo.Metodos_de_busqueda;
+using EDDemo.Recursividad;
+using EDDemo.Recursividad.frm_Recursividad;
+
 
 namespace EDDemo
 {
@@ -45,6 +53,134 @@ namespace EDDemo
             frmArboles mArboles = new frmArboles();
             mArboles.MdiParent = this;
             mArboles.Show();
+        }
+
+        private void estructurasLinealesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void colasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Nodos mnodos = new Nodos();
+            mnodos.MdiParent = this;
+            mnodos.Show();
+
+
+
+        }
+
+        
+
+
+
+        private void busquedaBinariaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Binaria mbinaria = new Binaria();
+            mbinaria.MdiParent = this;
+            mbinaria.Show();
+        }
+
+        private void secuenciaDeFibonacciToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Fibonacci frfibonacci = new Fibonacci();
+            frfibonacci.MdiParent = this;
+            frfibonacci.Show();
+        }
+
+        private void estructurasNoLibealesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void shellsortToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmShort fshort = new frmShort();
+            fshort.MdiParent = this;
+            fshort.Show();
+        }
+
+        private void calculoDeExponenteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Exponente fexponente = new Exponente();
+            fexponente.MdiParent = this;
+            fexponente.Show();
+
+        }
+
+        private void factorialDeUnNumeroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Factorial frfactorial = new Factorial();
+            frfactorial.MdiParent = this;
+            frfactorial.Show();
+
+        }
+
+        private void sumasDeElementosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Suma fsuma = new Suma();
+            fsuma.MdiParent = this;
+            fsuma.Show();
+
+        }
+
+        private void torreDeHanobiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hanoi fhanoi = new Hanoi();
+            fhanoi.MdiParent = this;
+            fhanoi.Show();
+
+        }
+
+        private void hashToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mhash mhash = new Mhash();
+            mhash.MdiParent = this;
+            mhash.Show();
+
+
+
+        }
+
+        private void busquedaSecuencialToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Msecuencial msecu = new Msecuencial();
+            msecu.MdiParent = this;
+            msecu.Show();
+
+        }
+
+        private void listasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Listass flista = new Listass();
+            flista.MdiParent = this;
+            flista.Show();
+
+        }
+
+        private void listasDoblesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mdoble mdoble = new Mdoble();
+            mdoble.MdiParent = this;
+            mdoble.Show();
+
+        }
+
+        private void listasCircularesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Circular fcircular = new Circular();
+            fcircular.MdiParent = this;
+            fcircular.Show();
+
+
+        }
+
+        private void listasCircularesDoblesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mcircular mcircular = new Mcircular();
+            mcircular.MdiParent = this;
+            mcircular.Show();
+
         }
     }
 }

@@ -74,40 +74,40 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Estructuras Lineales\Clases\lista dobble circular.cs">
+    <Compile Include="Estructuras Lineales\Clases\Lista circular doblee.cs" />
+    <Compile Include="Estructuras Lineales\Clases\Listas circulares.cs" />
+    <Compile Include="Estructuras Lineales\Clases\Listass dobles.cs" />
+    <Compile Include="Estructuras Lineales\Circular.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Estructuras Lineales\Clases\lista dobble circular.Designer.cs">
-      <DependentUpon>lista dobble circular.cs</DependentUpon>
+    <Compile Include="Estructuras Lineales\Circular.Designer.cs">
+      <DependentUpon>Circular.cs</DependentUpon>
     </Compile>
-    <Compile Include="Estructuras Lineales\Clases\lista circular simple.cs">
+    <Compile Include="Estructuras Lineales\Lista circular doble.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Estructuras Lineales\Clases\lista circular simple.Designer.cs">
-      <DependentUpon>lista circular simple.cs</DependentUpon>
+    <Compile Include="Estructuras Lineales\Lista circular doble.Designer.cs">
+      <DependentUpon>Lista circular doble.cs</DependentUpon>
     </Compile>
-    <Compile Include="Estructuras Lineales\Clases\lista doble .cs">
+    <Compile Include="Estructuras Lineales\Listas dobles.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Estructuras Lineales\Clases\lista doble .Designer.cs">
-      <DependentUpon>lista doble .cs</DependentUpon>
+    <Compile Include="Estructuras Lineales\Listas dobles.Designer.cs">
+      <DependentUpon>Listas dobles.cs</DependentUpon>
     </Compile>
-    <Compile Include="Estructuras Lineales\Clases\Listas simples.cs">
+    <Compile Include="Estructuras Lineales\Listass.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Estructuras Lineales\Clases\Listas simples.Designer.cs">
-      <DependentUpon>Listas simples.cs</DependentUpon>
+    <Compile Include="Estructuras Lineales\Listass.Designer.cs">
+      <DependentUpon>Listass.cs</DependentUpon>
     </Compile>
-    <Compile Include="Estructuras Lineales\Clases\Nodos.cs">
+    <Compile Include="Estructuras Lineales\Clases\Listas.cs" />
+    <Compile Include="Estructuras Lineales\Nodos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Estructuras Lineales\Clases\Nodos.Designer.cs">
+    <Compile Include="Estructuras Lineales\Nodos.Designer.cs">
       <DependentUpon>Nodos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Estructuras Lineales\Clases\Listas circulares doblemente encadenadas.cs" />
-    <Compile Include="Estructuras Lineales\Clases\Listas circulares simples.cs" />
-    <Compile Include="Estructuras Lineales\Clases\Listas doblemente encadenada.cs" />
-    <Compile Include="Estructuras Lineales\Clases\Listas.cs" />
     <Compile Include="Estructuras Lineales\Clases\Nodo.cs" />
     <Compile Include="Estructuras Lineales\Clases\Pilas.cs" />
     <Compile Include="Estructuras No Lineales\Clases\ArbolBusqueda.cs" />
@@ -137,50 +137,86 @@
       <DependentUpon>frmPilas.cs</DependentUpon>
     </Compile>
     <Compile Include="Graphviz.cs" />
+    <Compile Include="Metodo de busqueda\Busqueda secuencial .cs" />
+    <Compile Include="Metodo de busqueda\Busqueda secuencial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodo de busqueda\Busqueda secuencial.Designer.cs">
+      <DependentUpon>Busqueda secuencial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodo de busqueda\Metodo hash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodo de busqueda\Metodo hash.Designer.cs">
+      <DependentUpon>Metodo hash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodo de busqueda\Hash.cs" />
+    <Compile Include="Metodos de ordenamiento\short.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodos de ordenamiento\short.Designer.cs">
+      <DependentUpon>short.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos de ordenamiento\ShellShort.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recursividad\Calculo de un exponente.cs" />
     <Compile Include="Recursividad\Busqueda binaria.cs" />
-    <Compile Include="Recursividad\Frames recursividad\Busqueda binaria.cs">
+    <Compile Include="Recursividad\frm Recursividad\Binaria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Recursividad\Frames recursividad\Busqueda binaria.Designer.cs">
-      <DependentUpon>Busqueda binaria.cs</DependentUpon>
+    <Compile Include="Recursividad\frm Recursividad\Binaria.Designer.cs">
+      <DependentUpon>Binaria.cs</DependentUpon>
     </Compile>
-    <Compile Include="Recursividad\Frames recursividad\calculo de exponente.cs">
+    <Compile Include="Recursividad\frm Recursividad\Calculo de exponente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Recursividad\Frames recursividad\calculo de exponente.Designer.cs">
-      <DependentUpon>calculo de exponente.cs</DependentUpon>
+    <Compile Include="Recursividad\frm Recursividad\Calculo de exponente.Designer.cs">
+      <DependentUpon>Calculo de exponente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Recursividad\Frames recursividad\Factorial de un numero.cs">
+    <Compile Include="Recursividad\frm Recursividad\Factorial de un numero.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Recursividad\Frames recursividad\Factorial de un numero.Designer.cs">
+    <Compile Include="Recursividad\frm Recursividad\Factorial de un numero.Designer.cs">
       <DependentUpon>Factorial de un numero.cs</DependentUpon>
     </Compile>
-    <Compile Include="Recursividad\Frames recursividad\torre Hanobi.cs">
+    <Compile Include="Recursividad\frm Recursividad\Torre de Hanoi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Recursividad\Frames recursividad\torre Hanobi.Designer.cs">
-      <DependentUpon>torre Hanobi.cs</DependentUpon>
+    <Compile Include="Recursividad\frm Recursividad\Torre de Hanoi.Designer.cs">
+      <DependentUpon>Torre de Hanoi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Recursividad\Frames recursividad\sumar los elementos de un arreglo.cs">
+    <Compile Include="Recursividad\frm Recursividad\Suma de elementos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Recursividad\Frames recursividad\sumar los elementos de un arreglo.Designer.cs">
-      <DependentUpon>sumar los elementos de un arreglo.cs</DependentUpon>
+    <Compile Include="Recursividad\frm Recursividad\Suma de elementos.Designer.cs">
+      <DependentUpon>Suma de elementos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Recursividad\Frames recursividad\secuencia de Fibonacci.cs">
+    <Compile Include="Recursividad\frm Recursividad\Secuencia de Fibonacci.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Recursividad\Frames recursividad\secuencia de Fibonacci.Designer.cs">
-      <DependentUpon>secuencia de Fibonacci.cs</DependentUpon>
+    <Compile Include="Recursividad\frm Recursividad\Secuencia de Fibonacci.Designer.cs">
+      <DependentUpon>Secuencia de Fibonacci.cs</DependentUpon>
     </Compile>
     <Compile Include="Recursividad\Torre de Hanoi.cs" />
     <Compile Include="Recursividad\Secuencia de Fibonaci.cs" />
     <Compile Include="Recursividad\sumar los elementos de un arreglo.cs" />
     <Compile Include="Recursividad\Factorial de un numero .cs" />
+    <EmbeddedResource Include="Estructuras Lineales\Circular.resx">
+      <DependentUpon>Circular.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\Lista circular doble.resx">
+      <DependentUpon>Lista circular doble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\Listas dobles.resx">
+      <DependentUpon>Listas dobles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\Listass.resx">
+      <DependentUpon>Listass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\Nodos.resx">
+      <DependentUpon>Nodos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Estructuras No Lineales\frmArboles.resx">
       <DependentUpon>frmArboles.cs</DependentUpon>
     </EmbeddedResource>
@@ -193,6 +229,15 @@
     <EmbeddedResource Include="Estructuras Lineales\frmPilas.resx">
       <DependentUpon>frmPilas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Metodo de busqueda\Busqueda secuencial.resx">
+      <DependentUpon>Busqueda secuencial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metodo de busqueda\Metodo hash.resx">
+      <DependentUpon>Metodo hash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metodos de ordenamiento\short.resx">
+      <DependentUpon>short.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -203,6 +248,24 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Recursividad\frm Recursividad\Binaria.resx">
+      <DependentUpon>Binaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\frm Recursividad\Calculo de exponente.resx">
+      <DependentUpon>Calculo de exponente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\frm Recursividad\Factorial de un numero.resx">
+      <DependentUpon>Factorial de un numero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\frm Recursividad\Secuencia de Fibonacci.resx">
+      <DependentUpon>Secuencia de Fibonacci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\frm Recursividad\Suma de elementos.resx">
+      <DependentUpon>Suma de elementos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\frm Recursividad\Torre de Hanoi.resx">
+      <DependentUpon>Torre de Hanoi.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="external\config6">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -521,5 +584,6 @@
     <None Include="Resources\500_333.jpeg" />
     <None Include="Resources\Captura de pantalla 2024-10-28 223731.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
