@@ -1,18 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace EDDemo
+public class Pilas
 {
-    public class Pilas
-    {
-        public void Push()
-        {
-            Nodo Nuevo = new Nodo();
-            Nuevo.sig = null;
+    private Stack<string> stack = new Stack<string>();
 
-        }
+    
+    public void Agregar(string elemento)
+    {
+        stack.Push(elemento);
+    }
+
+    public string Eliminar()
+    {
+        return stack.Count > 0 ? stack.Pop() : null;
+    }
+
+    public string ObtenerEstado()
+    {
+        return stack.Count > 0 ? string.Join(", ", stack) : "La pila está vacía.";
     }
 }
