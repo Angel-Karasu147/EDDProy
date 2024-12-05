@@ -13,6 +13,7 @@ using EDDemo.Estructuras_Lineales.Clases;
 using EDDemo.Estructuras_No_Lineales;
 using EDDemo.Metodo_de_busqueda;
 using EDDemo.Metodos_de_busqueda;
+using EDDemo.Metodos_de_ordenamiento;
 using EDDemo.Recursividad;
 using EDDemo.Recursividad.frm_Recursividad;
 
@@ -132,15 +133,7 @@ namespace EDDemo
 
         }
 
-        private void hashToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Mhash mhash = new Mhash();
-            mhash.MdiParent = this;
-            mhash.Show();
-
-
-
-        }
+        
 
         private void busquedaSecuencialToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -180,6 +173,39 @@ namespace EDDemo
             Mcircular mcircular = new Mcircular();
             mcircular.MdiParent = this;
             mcircular.Show();
+
+        }
+
+        private void burbujaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Burbujas burbuja = new Burbujas();
+            burbuja.MdiParent = this;
+            burbuja.Show();
+
+            
+        }
+
+        private void quicksortToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            quicksorts mquick = new quicksorts();
+            mquick.MdiParent = this;
+            mquick.Show();
+
+        }
+
+        private void radixToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Radixx fradix = new Radixx();
+            fradix.MdiParent = this;
+            fradix.Show();
+
+        }
+
+        private void busquedaBinariaNoRecursivaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NoRecursiva norecursiva = new NoRecursiva();
+            norecursiva.MdiParent = this;
+            norecursiva.Show();
 
         }
     }

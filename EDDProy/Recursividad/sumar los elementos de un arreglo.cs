@@ -1,12 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EDDemo.Recursividad
 {
-    internal class Class3
+    public static class Calculadora
     {
+        public static (int resultado, TimeSpan tiempo) Sumar(int valor1, int valor2)
+        {
+            var stopwatch = System.Diagnostics.Stopwatch.StartNew();
+
+            int resultado = valor1 + valor2;
+
+            stopwatch.Stop();
+            TimeSpan tiempo = stopwatch.Elapsed;
+
+            return (resultado, tiempo);
+        }
     }
 }

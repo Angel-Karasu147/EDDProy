@@ -73,9 +73,40 @@ namespace EDDemo.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _7At0RJfZ6_S3UozPqn5WO_xPqWlnVG52x9DusEhRglGjkl2OA2bU9U0YuqYaAR5EGw2TqLlFrQqKhauiRaMd9CQ0p_mG9VLbGrqrgLYZbYrifwfvuxeTIy01ahzL0K7T3HFWxdGy__1_ {
+            get {
+                object obj = ResourceManager.GetObject("_7At0RJfZ6_S3UozPqn5WO_xPqWlnVG52x9DusEhRglGjkl2OA2bU9U0YuqYaAR5EGw2TqLlFrQqKhaui" +
+                        "RaMd9CQ0p_mG9VLbGrqrgLYZbYrifwfvuxeTIy01ahzL0K7T3HFWxdGy__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_pantalla_2024_10_28_223731 {
             get {
                 object obj = ResourceManager.GetObject("Captura_de_pantalla_2024_10_28_223731", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap curso_gratis_estructuras_de_datos {
+            get {
+                object obj = ResourceManager.GetObject("curso_gratis_estructuras_de_datos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logo_ITE_color__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Logo_ITE_color__2_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

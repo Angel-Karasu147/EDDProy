@@ -1,12 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EDDemo.Recursividad
 {
-    internal class Class2
+    internal class Calculo_de_exponente
     {
+        public long CalcularExponente(int baseNum, int exponente)
+        {
+            if (exponente == 0)
+                return 1; 
+            return baseNum * CalcularExponente(baseNum, exponente - 1); 
+        }
     }
 }

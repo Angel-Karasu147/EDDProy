@@ -137,6 +137,7 @@
             this.Controls.Add(this.insertartb1);
             this.Name = "Mcircular";
             this.Text = "Listas circular doble";
+            this.Load += new System.EventHandler(this.Mcircular_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

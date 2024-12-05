@@ -68,5 +68,10 @@ namespace EDDemo.Estructuras_Lineales
             }
 
         }
+
+        private void Mcircular_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

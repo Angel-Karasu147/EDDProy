@@ -34,6 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -137,6 +138,7 @@
       <DependentUpon>frmPilas.cs</DependentUpon>
     </Compile>
     <Compile Include="Graphviz.cs" />
+    <Compile Include="Metodo de busqueda\Busqueda binaria no recursiva.cs" />
     <Compile Include="Metodo de busqueda\Busqueda secuencial .cs" />
     <Compile Include="Metodo de busqueda\Busqueda secuencial.cs">
       <SubType>Form</SubType>
@@ -144,18 +146,38 @@
     <Compile Include="Metodo de busqueda\Busqueda secuencial.Designer.cs">
       <DependentUpon>Busqueda secuencial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Metodo de busqueda\Metodo hash.cs">
+    <Compile Include="Metodo de busqueda\NoRecursiva.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Metodo de busqueda\Metodo hash.Designer.cs">
-      <DependentUpon>Metodo hash.cs</DependentUpon>
+    <Compile Include="Metodo de busqueda\NoRecursiva.Designer.cs">
+      <DependentUpon>NoRecursiva.cs</DependentUpon>
     </Compile>
-    <Compile Include="Metodo de busqueda\Hash.cs" />
-    <Compile Include="Metodos de ordenamiento\short.cs">
+    <Compile Include="Metodos de ordenamiento\Burbuja.cs" />
+    <Compile Include="Metodos de ordenamiento\Burbujas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Metodos de ordenamiento\short.Designer.cs">
-      <DependentUpon>short.cs</DependentUpon>
+    <Compile Include="Metodos de ordenamiento\Burbujas.Designer.cs">
+      <DependentUpon>Burbujas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos de ordenamiento\Radixx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodos de ordenamiento\Radixx.Designer.cs">
+      <DependentUpon>Radixx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos de ordenamiento\Quicksort.cs" />
+    <Compile Include="Metodos de ordenamiento\quicksorts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodos de ordenamiento\quicksorts.Designer.cs">
+      <DependentUpon>quicksorts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos de ordenamiento\Radix.cs" />
+    <Compile Include="Metodos de ordenamiento\shortt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodos de ordenamiento\shortt.Designer.cs">
+      <DependentUpon>shortt.cs</DependentUpon>
     </Compile>
     <Compile Include="Metodos de ordenamiento\ShellShort.cs" />
     <Compile Include="Program.cs" />
@@ -232,11 +254,20 @@
     <EmbeddedResource Include="Metodo de busqueda\Busqueda secuencial.resx">
       <DependentUpon>Busqueda secuencial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Metodo de busqueda\Metodo hash.resx">
-      <DependentUpon>Metodo hash.cs</DependentUpon>
+    <EmbeddedResource Include="Metodo de busqueda\NoRecursiva.resx">
+      <DependentUpon>NoRecursiva.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Metodos de ordenamiento\short.resx">
-      <DependentUpon>short.cs</DependentUpon>
+    <EmbeddedResource Include="Metodos de ordenamiento\Burbujas.resx">
+      <DependentUpon>Burbujas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metodos de ordenamiento\quicksorts.resx">
+      <DependentUpon>quicksorts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metodos de ordenamiento\Radixx.resx">
+      <DependentUpon>Radixx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metodos de ordenamiento\shortt.resx">
+      <DependentUpon>shortt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -581,6 +612,9 @@
     <Content Include="external\zlib1.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\curso-gratis-estructuras-de-datos.jpg" />
+    <None Include="Resources\Logo-ITE-color %282%29.png" />
+    <None Include="Resources\7At0RJfZ6_S3UozPqn5WO-xPqWlnVG52x9DusEhRglGjkl2OA2bU9U0YuqYaAR5EGw2TqLlFrQqKhauiRaMd9CQ0p-mG9VLbGrqrgLYZbYrifwfvuxeTIy01ahzL0K7T3HFWxdGy %281%29.png" />
     <None Include="Resources\500_333.jpeg" />
     <None Include="Resources\Captura de pantalla 2024-10-28 223731.png" />
   </ItemGroup>

@@ -117,20 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Captura_de_pantalla_2024_10_28_223731" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura de pantalla 2024-10-28 223731.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="500_333" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\500_333.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo_ITE_color__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo-ITE-color (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_7At0RJfZ6_S3UozPqn5WO_xPqWlnVG52x9DusEhRglGjkl2OA2bU9U0YuqYaAR5EGw2TqLlFrQqKhauiRaMd9CQ0p_mG9VLbGrqrgLYZbYrifwfvuxeTIy01ahzL0K7T3HFWxdGy__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7At0RJfZ6_S3UozPqn5WO-xPqWlnVG52x9DusEhRglGjkl2OA2bU9U0YuqYaAR5EGw2TqLlFrQqKhauiRaMd9CQ0p-mG9VLbGrqrgLYZbYrifwfvuxeTIy01ahzL0K7T3HFWxdGy (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="curso_gratis_estructuras_de_datos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\curso-gratis-estructuras-de-datos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>
